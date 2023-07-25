@@ -10,8 +10,8 @@ def wrap(text):
 
 @app.route("/")
 def test():
-    return wrap("\n".join(get_zpool()))
+    return wrap("".join(get_zpool()))
 
 
 if __name__ == "__main__":
-    app.run(port=3000, debug=True)
+    app.run(host="127.0.0.1", port=3000, debug=True)
