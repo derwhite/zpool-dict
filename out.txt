@@ -1,0 +1,26 @@
+  pool: Storage
+ state: ONLINE
+status: Some supported features are not enabled on the pool. The pool can
+        still be used, but some features are unavailable.
+action: Enable all features using 'zpool upgrade'. Once this is done,
+        the pool may no longer be accessible by software that does not support
+        the features. See zpool-features(5) for details.
+  scan: scrub repaired 0B in 1 days 02:34:19 with 0 errors on Mon Jul 10 02:58:22 2023
+config:
+
+        NAME                                          STATE     READ WRITE CKSUM
+        Storage                                       ONLINE       0     0     0
+          raidz1-0                                    ONLINE       0     0     0
+            ata-WDC_WD60EFAX-XXXXXXX_WD-XXXXXXXXXXXX  ONLINE       0     0     0
+            ata-WDC_WD60EFAX-XXXXXXX_WD-XXXXXXXXXXXX  ONLINE       0     0     0
+            ata-WDC_WD60EFAX-XXXXXXX_WD-XXXXXXXXXXXX  ONLINE       0     0     0
+            ata-WDC_WD60EFAX-XXXXXXX_WD-XXXXXXXXXXXX  ONLINE       0     0     0
+            ata-WDC_WD60EFAX-XXXXXXX_WD-XXXXXXXXXXXX  ONLINE       0     0     0
+          raidz1-1                                    ONLINE       0     0     0
+            ata-ST6000VN001-XXXXXXXX_XXXXXX           ONLINE       0     0     0
+            ata-ST6000VN001-XXXXXXXX_XXXXXX           ONLINE       0     0     0
+            ata-ST6000VN001-XXXXXXXX_XXXXXX           ONLINE       0     0     0
+            ata-ST6000VN001-XXXXXXXX_XXXXXX           ONLINE       0     0     0
+            ata-ST6000VN001-XXXXXXXX_XXXXXX           ONLINE       0     0     0
+
+errors: No known data errors
